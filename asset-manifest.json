@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/trp-potfolio/static/css/main.1f3507ec.css",
+    "main.js": "/trp-potfolio/static/js/main.2d73c32b.js",
+    "static/media/images.svg": "/trp-potfolio/static/media/images.df3514082d1e9259a8f74bce35ecd63b.svg",
+    "static/media/image-removebg-preview.png": "/trp-potfolio/static/media/image-removebg-preview.0fd964dfd7f9ef665c47.png",
+    "static/media/trp_singh.png": "/trp-potfolio/static/media/trp_singh.3045123452516f334007.png",
+    "static/media/algo.svg": "/trp-potfolio/static/media/algo.1777c033a36630f16b7d35df808229a9.svg",
+    "static/media/pngegg.png": "/trp-potfolio/static/media/pngegg.06858b961fc113360cef.png",
+    "static/media/apni dukan.svg": "/trp-potfolio/static/media/apni dukan.f5633b2ede8fb2b0812196c60b6bb2de.svg",
+    "static/media/tindog.svg": "/trp-potfolio/static/media/tindog.66fd4546153100c11e5445795a85d107.svg",
+    "static/media/logo.svg": "/trp-potfolio/static/media/logo.7fec7aa400b68b34db31277b64dd363e.svg",
+    "static/media/amazon-web-services.svg": "/trp-potfolio/static/media/amazon-web-services.482ae98bd199aa096dfaa67074122abb.svg",
+    "static/media/Mongoose.svg": "/trp-potfolio/static/media/Mongoose.f352066cb2346b28cf16d7efae87b602.svg",
+    "static/media/nodejs.svg": "/trp-potfolio/static/media/nodejs.cccdafa931eebdaea49f5c5ac3ba232f.svg",
+    "static/media/react-2.svg": "/trp-potfolio/static/media/react-2.c3b0379b761cc437ad79b8faf66b9d60.svg",
+    "static/media/python.svg": "/trp-potfolio/static/media/python.58d5a0a7b305a106917669f9abcc4f3d.svg",
+    "index.html": "/trp-potfolio/index.html",
+    "static/media/mongodb.svg": "/trp-potfolio/static/media/mongodb.3beac5ba18197ccbdea6e2f53e18edcf.svg",
+    "static/media/js.svg": "/trp-potfolio/static/media/js.19600440c8c62e3de974e2bba991871f.svg",
+    "static/media/git.svg": "/trp-potfolio/static/media/git.43d387b77657117c0e407816cbf72476.svg",
+    "static/media/css.svg": "/trp-potfolio/static/media/css.64fa1d1c4801d931c3717be71f6c020e.svg",
+    "static/media/html.svg": "/trp-potfolio/static/media/html.c1bb84e022ca9d76984d4b943bd678fd.svg",
+    "main.1f3507ec.css.map": "/trp-potfolio/static/css/main.1f3507ec.css.map",
+    "main.2d73c32b.js.map": "/trp-potfolio/static/js/main.2d73c32b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f3507ec.css",
+    "static/js/main.2d73c32b.js"
+  ]
+}
