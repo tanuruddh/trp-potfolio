@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/trp-potfolio/static/css/main.1f3507ec.css",
-    "main.js": "/trp-potfolio/static/js/main.2d73c32b.js",
+    "main.css": "/trp-potfolio/static/css/main.c6d971d6.css",
+    "main.js": "/trp-potfolio/static/js/main.ac4e543a.js",
     "static/media/images.svg": "/trp-potfolio/static/media/images.df3514082d1e9259a8f74bce35ecd63b.svg",
     "static/media/image-removebg-preview.png": "/trp-potfolio/static/media/image-removebg-preview.0fd964dfd7f9ef665c47.png",
     "static/media/trp_singh.png": "/trp-potfolio/static/media/trp_singh.3045123452516f334007.png",
@@ -21,11 +21,11 @@
     "static/media/git.svg": "/trp-potfolio/static/media/git.43d387b77657117c0e407816cbf72476.svg",
     "static/media/css.svg": "/trp-potfolio/static/media/css.64fa1d1c4801d931c3717be71f6c020e.svg",
     "static/media/html.svg": "/trp-potfolio/static/media/html.c1bb84e022ca9d76984d4b943bd678fd.svg",
-    "main.1f3507ec.css.map": "/trp-potfolio/static/css/main.1f3507ec.css.map",
-    "main.2d73c32b.js.map": "/trp-potfolio/static/js/main.2d73c32b.js.map"
+    "main.c6d971d6.css.map": "/trp-potfolio/static/css/main.c6d971d6.css.map",
+    "main.ac4e543a.js.map": "/trp-potfolio/static/js/main.ac4e543a.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f3507ec.css",
-    "static/js/main.2d73c32b.js"
+    "static/css/main.c6d971d6.css",
+    "static/js/main.ac4e543a.js"
   ]
 }
