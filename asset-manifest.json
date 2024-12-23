@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/trp-potfolio/static/css/main.e0d4aa20.css",
-    "main.js": "/trp-potfolio/static/js/main.4f9b6432.js",
+    "main.css": "/trp-potfolio/static/css/main.12729a97.css",
+    "main.js": "/trp-potfolio/static/js/main.57f2bf07.js",
+    "static/media/avatar.jpg": "/trp-potfolio/static/media/avatar.28575448bc748546108d.jpg",
     "static/media/images.svg": "/trp-potfolio/static/media/images.df3514082d1e9259a8f74bce35ecd63b.svg",
-    "static/media/image-removebg-preview.png": "/trp-potfolio/static/media/image-removebg-preview.0fd964dfd7f9ef665c47.png",
-    "static/media/trp_singh.png": "/trp-potfolio/static/media/trp_singh.3045123452516f334007.png",
     "static/media/algo.svg": "/trp-potfolio/static/media/algo.1777c033a36630f16b7d35df808229a9.svg",
     "static/media/natour.svg": "/trp-potfolio/static/media/natour.f5fc7f07bed23165f0f5ddad8559f234.svg",
     "static/media/pngegg.png": "/trp-potfolio/static/media/pngegg.06858b961fc113360cef.png",
+    "static/media/react-native.png": "/trp-potfolio/static/media/react-native.6159b545b6e5dd396ce8.png",
+    "static/media/the-heaven-home.png": "/trp-potfolio/static/media/the-heaven-home.b981a7ed30fe70fad536.png",
     "static/media/apni dukan.svg": "/trp-potfolio/static/media/apni dukan.f5633b2ede8fb2b0812196c60b6bb2de.svg",
     "static/media/tindog.svg": "/trp-potfolio/static/media/tindog.66fd4546153100c11e5445795a85d107.svg",
+    "static/media/redis.png": "/trp-potfolio/static/media/redis.d55a611976cb10bbfc9e.png",
     "static/media/logo.svg": "/trp-potfolio/static/media/logo.7fec7aa400b68b34db31277b64dd363e.svg",
     "static/media/amazon-web-services.svg": "/trp-potfolio/static/media/amazon-web-services.482ae98bd199aa096dfaa67074122abb.svg",
     "static/media/Mongoose.svg": "/trp-potfolio/static/media/Mongoose.f352066cb2346b28cf16d7efae87b602.svg",
@@ -22,11 +24,11 @@
     "static/media/git.svg": "/trp-potfolio/static/media/git.43d387b77657117c0e407816cbf72476.svg",
     "static/media/css.svg": "/trp-potfolio/static/media/css.64fa1d1c4801d931c3717be71f6c020e.svg",
     "static/media/html.svg": "/trp-potfolio/static/media/html.c1bb84e022ca9d76984d4b943bd678fd.svg",
-    "main.e0d4aa20.css.map": "/trp-potfolio/static/css/main.e0d4aa20.css.map",
-    "main.4f9b6432.js.map": "/trp-potfolio/static/js/main.4f9b6432.js.map"
+    "main.12729a97.css.map": "/trp-potfolio/static/css/main.12729a97.css.map",
+    "main.57f2bf07.js.map": "/trp-potfolio/static/js/main.57f2bf07.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0d4aa20.css",
-    "static/js/main.4f9b6432.js"
+    "static/css/main.12729a97.css",
+    "static/js/main.57f2bf07.js"
   ]
 }
