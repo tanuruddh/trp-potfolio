@@ -9,17 +9,22 @@ import mongodb from '../images/mongodb.svg';
 import nodejs from '../images/nodejs.svg';
 import reactjs from '../images/react-2.svg'
 import mongoose from '../images/Mongoose.svg'
+import reactNative from '../images/react-native.png'
+import redis from '../images/redis.png'
+
+import avatar from '../images/avatar.jpg';
 
 
 const About = () => {
     return (
         <div>
             <section className="about">
+                <img src={avatar} className='about-avatar' alt='avatar' />
                 <div className="img"></div>
                 <h1>About</h1>
                 <div className="description">
                     <div className="line"></div>
-                    <p>In the world of web development, I've found my passion in crafting dynamic and interactive web applications using the MERN stack – <span>React.js</span>, <span>Node.js</span>, <span>MongoDB</span> and <span>Express.js</span>. These technologies have not only empowered me to build robust and scalable solutions but also ignited my curiosity to explore new possibilities in the realm of full-stack development <br /> <br /> A passionate developer having expertise in Web, API, and Database and the ability to adapt in
+                    <p>In the world of web development, I've found my passion in crafting dynamic and interactive web applications using the MERN stack – <span>React.js</span>,<span>React-Native</span> <span>Node.js</span>, <span>MongoDB</span> and <span>Express.js</span>. These technologies have not only empowered me to build robust and scalable solutions but also ignited my curiosity to explore new possibilities in the realm of full-stack development <br /> <br /> A passionate developer having expertise in Web, App, API, and Database and the ability to adapt in
                         both self-starting and collaborative
                         environments while staying focused on
                         achieving high-quality results under strict
@@ -47,6 +52,10 @@ const About = () => {
                         <h2>React.js</h2>
                     </div>
                     <div className="skill-card">
+                        <img src={reactNative} alt="Python logo" />
+                        <h2>React Native</h2>
+                    </div>
+                    <div className="skill-card">
                         <img src={nodejs} alt="Python logo" />
                         <h2>Node.js</h2>
                     </div>
@@ -61,6 +70,10 @@ const About = () => {
                     <div className="skill-card">
                         <img src={mongoose} alt="Python logo" />
                         <h2>Mongoose</h2>
+                    </div>
+                    <div className="skill-card">
+                        <img src={redis} alt="Python logo" />
+                        <h2>Redis</h2>
                     </div>
                     <div className="skill-card">
                         <img src={aws} alt="Python logo" />
@@ -81,7 +94,16 @@ const About = () => {
                 <h1>Experience</h1>
                 <div className="lighter-div">
                     <div className="exp first-exp">
-                        <h2>Research and Development intern </h2>
+                        <h2 >Software Developer(01/2024 -Current)</h2>
+
+
+                        <div className="exp-desc">
+                            <h3>Gurucool, Jaipur </h3>
+                            <p>&#8226; Architected and implemented a microservices infrastructure, enabling seamless integration of live video, chat, and call consultations using Agora SDK with Redis queue management, resulting in efficient user-astrologer interactions. <br /> &#8226; Built cross-platform applications using React Native for mobile and Next.js for web, managing complex application state with Redux and React Query to implement efficient data caching, real-time updates, and optimized API response times. <br /> &#8226; Optimized React Native codebase by adopting best architecture practices, reducing redundant re-renders, and implementing modular components for better maintainability and scalability. <br /> &#8226; Developed real-time chat functionality using GraphQL and Agora SDK, while integrating IVR and VoIP services through Exotel to enhance communication channels. <br /> &#8226; Collaborated on backend development with Node.js and Express.js, ensuring efficient API designs and seamless integration with MongoDB for scalable data management. <br /> &#8226; Consistently optimized API response times in React Native applications by implementing advanced state management techniques and performance-focused patterns. <br /> &#8226; Led strategic journey optimizations that boosted revenue by 80% through data-driven user experience improvements.</p>
+                        </div>
+                    </div>
+                    <div className="exp first-exp">
+                        <h2>Software Developer (01/2023 - 12/2023)</h2>
 
 
                         <div className="exp-desc">
@@ -93,7 +115,7 @@ const About = () => {
                         </div>
                     </div>
                     <div className="exp">
-                        <h2>Front-End Trainee</h2>
+                        <h2>Front-End Trainee (06/2022 - 08/2022)</h2>
                         <div className="exp-desc">
                             <h3>GLA University, Mathura</h3>
                             <p>&#8226;  Worked as Web and Mobile Apps Developer, done a project in web by using React Native.

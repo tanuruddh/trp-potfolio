@@ -1,54 +1,97 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import logo from '../images/logo.svg';
 import '../style.css';
 import { Link } from 'react-router-dom';
+
 function Navbar() {
+    const [isOpen, setIsOpen] = useState(false);
+    const [scrolled, setScrolled] = useState(false);
+
     const handleScroll = () => {
-        if (window.scrollY) { }
+        const offset = window.scrollY;
+        if (offset > 50) {
+            console.log('Scroll');
+            setScrolled(true);
+        } else {
+            setScrolled(false);
+        }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
+
+    const closeMenu = () => {
+        setIsOpen(false);
+    };
 
     return (
-        <>
+        <nav className={`navbar sticky ${scrolled ? 'scrolled' : ''}`}>
+            <div className="container-fluid nav">
 
-            <nav className="navbar navbar-expand  navbar-tag sticky" >
-                <div className="container-fluid nav">
-                    <Link className="navbar-brand" to="/"><img src={logo} alt="logo" /></Link>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-white">
-                            <li className="nav-item">
-                                <Link className="nav-link active text-white" to="/">Home</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link text-white" to="/about">About</Link>
-                            </li>
+                <Link className={`navbar-brand top`} to="/" onClick={closeMenu} >
+                    <img src={logo} alt="logo" />
+                </Link>
+                <button
+                    className="navbar-toggler"
+                    type="button"
+                    onClick={toggleMenu}
+                    aria-expanded={isOpen}
+                >
+                    <span className="navbar-toggler-icon"></span>
+                </button>
 
-                            <li className="nav-item">
-                                <Link className="nav-link  text-white" to='/contact'>Contact Me</Link>
+                <div className={`navbar-collapse ${isOpen ? 'show' : ''}`}>
 
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link  text-white" to='/blogs'>Blogs</Link>
-
-                            </li>
-                            <li>
-
-                                <form className="d-flex" role="search">
-                                    <input className="form-control me-2" type="search" placeholder="" aria-label="Search" />
-                                    <i className="ri-search-line"></i>
-                                </form>
-                            </li>
-                        </ul>
-                    </div>
+                    <ul className="navbar-nav">
+                        <li className="nav-item" >
+                            <Link className={`navbar-brand bottom`} to="/" onClick={closeMenu} >
+                                <img src={logo} alt="logo" />
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/" onClick={closeMenu}>
+                                Home
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/about" onClick={closeMenu}>
+                                About
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/contact" onClick={closeMenu}>
+                                Contact Me
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/blogs" onClick={closeMenu}>
+                                Blogs
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <form className="d-flex" role="search">
+                                <input
+                                    className="form-control"
+                                    type="search"
+                                    placeholder="Search..."
+                                    aria-label="Search"
+                                />
+                                <i className="ri-search-line"></i>
+                            </form>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-
-        </>
-    )
+            </div>
+        </nav>
+    );
 }
 
-export default Navbar
+export default Navbar;
